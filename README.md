@@ -22,7 +22,7 @@ The **RestoreLayout** button uses the [PivotGridControl.RestoreLayoutFromStream]
 The following options allows you to combine fields from different Pivot Grid controls on restore:
 
 * [PivotGridOptionsLayout.Columns.AddNewColumns](https://docs.devexpress.com/CoreLibraries/DevExpress.Utils.OptionsColumnLayout.AddNewColumns?p=netframework) that is set to true, keeps the field in the `pivotGridControlNew` control when you restore layout.
-* 
+ 
 * [PivotGridOptionsLayout.Columns.RemoveOldColumns](https://docs.devexpress.com/CoreLibraries/DevExpress.Utils.OptionsColumnLayout.RemoveOldColumns) that is set to false, adds fields from `pivotGridControlOld` to `pivotGridControlNew`.
 
 * [PivotGridOptionsLayout.AddNewGroups](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridOptionsLayout.AddNewGroups?p=netframework) that is set to `true`, keeps the "Year-Quarter" group of the `pivotGridControlNew` when you restore layout.
