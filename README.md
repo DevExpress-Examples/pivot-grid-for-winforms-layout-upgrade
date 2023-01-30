@@ -12,21 +12,7 @@ The example contains two Pivot Grid controls with the following fields:
 
 ![screenshot](./images/pivotgrid.png)
 
-The **SaveLayout** button uses the [PivotGridControl.SaveLayoutToStream](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.SaveLayoutToStream(System.IO.Stream)) method to save the `pivotGridControlOld` layout to memory streams.
 
-The **RestoreLayout** button uses the [PivotGridControl.RestoreLayoutFromStream](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.RestoreLayoutFromStream(System.IO.Stream)?p=netframework) method to restore the saved layout to `pivotGridControlNew`.
-
-The following options allows you to combine fields from different Pivot Grid controls on restore:
-
-* [PivotGridOptionsLayout.Columns.AddNewColumns](https://docs.devexpress.com/CoreLibraries/DevExpress.Utils.OptionsColumnLayout.AddNewColumns?p=netframework) that is set to true, keeps the field in the `pivotGridControlNew` control when you restore layout.
-
-* [PivotGridOptionsLayout.Columns.RemoveOldColumns](https://docs.devexpress.com/CoreLibraries/DevExpress.Utils.OptionsColumnLayout.RemoveOldColumns) that is set to false, adds fields from `pivotGridControlOld` to `pivotGridControlNew`.
-
-* [PivotGridOptionsLayout.AddNewGroups](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridOptionsLayout.AddNewGroups?p=netframework) that is set to `true`, keeps the "Year-Quarter" group of the `pivotGridControlNew` when you restore layout.
-
-* [PivotGridControl.LayoutUpgrade](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.LayoutUpgrade?p=netframework) event adds the "Quantity" field to `pivotGridControlNew`'s data area when you restore layout.
-
-The following image shows the resulting combination when you save the `pivotGridControlOld` layout and restore it to `pivotGridControlNew`:
 
 ![screenshot](./images/result.png)
 
