@@ -33,7 +33,7 @@ The following image shows the resulting combination when you save the `pivotGrid
 
 ## Files to Review
 
-- [Form1.cs](.CS/WinPivotUpgradeLayout/Form1.cs) (VB: [Form1.cs](.VB/WinPivotUpgradeLayout/Form1.vb))
+- [Form1.cs](./CS/WinPivotUpgradeLayout/Form1.cs) (VB: [Form1.vb](./VB/WinPivotUpgradeLayout/Form1.vb))
 ## Documentation
 
 - [Save and Restore Layout](https://docs.devexpress.com/WindowsForms/1806/controls-and-libraries/pivot-grid/layout/save-and-restore-layout)
