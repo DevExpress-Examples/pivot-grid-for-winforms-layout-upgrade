@@ -44,7 +44,7 @@ The following image shows the resulting combination when you save the `pivotGrid
 - [Pivot Grid for WinForms - How to Save and Restore the Pivot Grid Layout](https://github.com/DevExpress-Examples/winforms-pivotgrid-save-restore-state-and-layout)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pivot-grid-for-winforms-layout-upgrade&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pivot-grid-for-winforms-layout-upgrade&~~~was_helpful=no)
 
